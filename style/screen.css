@@ -1,0 +1,455 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 76%;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #F5DCF2 url(../images/bg.gif) repeat top left;
+	color: #610682;
+	line-height: 18px;
+}
+
+h1 {
+	font-size: 1.4em;
+	color: #9e3a81;
+	padding: 40px 20px 10px 56px;
+}
+
+h1 a{
+	color: #9e3a81;
+}
+
+h3 {
+	font-size: 1em;
+	color: #6c259a;
+	font-weight: bold;
+	margin-bottom: 5px;
+	}
+
+a {
+	text-decoration: none;
+	color: #6c259a;
+}
+
+img {
+	border: none;
+	outline: none;
+}
+
+p {margin-bottom: 15px;}
+
+.path {
+	width: 98%;
+	background: #E9DFF2;
+}
+p.path {margin:0;}
+
+#page {
+	width: 780px;
+	border: #9934AA solid 1px;
+	margin: auto;
+}
+
+#pageHeader {
+	background: transparent url(../images/banner.jpg) no-repeat top center;
+	height: 130px;
+}
+
+#date {
+	background-color: #D6BBEE;
+	color: #CC249B;
+	font-weight: bold;
+	text-align: right;
+	margin-top: 3px;
+	padding: 3px 10px 3px 0;
+}
+
+/* BOX */
+#box {
+	background: #F1F1F9 url(../images/bgBox.jpg) repeat-y left top;
+	min-height: 600px; height: auto !important; height: 600px;
+}
+
+/* SIDEBAR */
+#sidebar {
+	width: 156px;
+	float: left;
+	padding-left: 10px;
+}
+
+#menu {
+	width: 156px;
+	margin: auto;
+	margin-top: 5px;
+	border: #6A206A solid 1px;
+}
+
+#menu ul {
+	list-style: none;
+}
+#menu ul li{
+	border-bottom: #D6BBEE solid 1px;
+	margin: 4px 0 5px;
+}
+#menu ul li a{
+	margin-left: 10px;
+	padding-left: 15px;
+	color: #6A206A;
+	text-decoration: none;	
+	background: url(../images/bulletMenu_Plus.jpg) no-repeat;
+}
+#menu ul li.hMenu{
+	background-color: #D6A2FF;
+	border-bottom: #6A206A solid 1px;	
+	margin-top: 0;
+	padding-top: 4px;
+	color: #fff;
+	font-weight: bold;
+	padding-left: 10px;
+}
+#menu ul li ul li {
+	border: none;
+}
+#menu ul li ul li a{
+	background: url(../images/bulletMenu_Minus.jpg) no-repeat;
+}
+
+/* ADS */
+#ads {
+	width: 158px;
+	margin-top: 5px;
+}
+#ads a img{
+	margin: 0;
+}
+
+/* CONTENT */
+#content {
+	background: #F1F1F9;
+	margin-left: 178px;
+	padding: 25px 15px;
+}
+
+/* INTRO */
+#intro {
+	background: transparent url(../images/bgLoiNgo.jpg) repeat-y 0px top;
+	min-height: 330px; height: auto !important; height: 330px;
+	padding: 0 56px;
+}
+#intro h1 {
+	padding: 40px 20px 10px 0;
+}#intro p {
+	margin-bottom: 20px;
+}
+
+/* NEWS */
+#news {
+	background: transparent url(../images/pen.jpg) no-repeat 0px top;	
+}
+#news div.article div.img {
+	width: 140px; 
+	text-align: right;
+	float: left;
+}
+#news div.article {
+	height: 170px;
+	display: block;
+}
+#news div.article p.content {
+	margin-left: 148px; 
+}
+
+/* FOOTER */
+#footer {
+	text-align: right;
+	font-size: .8em;
+	color: #434343;	
+}
+#footer p { margin-top: 12px;}
+
+
+
+
+/* PAGES */
+#noiQuy, #tieuChiHoatDong, #tieuChiHoatDongChiTiet, #trangTho, #trangThoChiTiet, #thongTinNoiBo, #bangLienHe, #danhSachThanhVien, #danhSachThanhVienChiTiet, #thongTinNoiBoChiTiet, #nhac {
+	background: transparent url(../images/pen.jpg) no-repeat 0px top;	
+}
+.footPage {
+	height: 20px;
+	padding: 10px;
+}
+.sumPages {
+	float: left;
+}
+.numPage {
+	float: right;
+}
+
+#thongTinNoiBo img, #news img, #thongTinNoiBoChiTiet img {
+	float: left;
+	margin-right: 10px;
+}
+#thongTinNoiBo table tr td, #news  table tr td, #thongTinNoiBoChiTiet table tr td {
+	border-top: #B796D5 dashed 1px;	
+	padding: 10px 0;
+}
+#thongTinNoiBo h3, #news h3, #thongTinNoiBoChiTiet h3 {
+	display: block;
+	height: 15px;
+}
+#thongTinNoiBo h3 .title, #news h3 .title, #thongTinNoiBoChiTiet h3 .title, #nhac h3 .title {
+	float: left;
+}
+#thongTinNoiBo .datePost, #news .datePost, #thongTinNoiBoChiTiet .datePost, #nhac .datePost {
+	float: right;
+	font-style: italic;
+	font-weight: normal;
+}
+
+
+/* TIEU CHI HOAT DONG */
+#cacTieuChiKhac div.content, #tieuChiHoatDong, #cacTinKhac div.content {
+	margin-left: 50px;
+}
+#cacTieuChiKhac div.content .clearfix, #trangTho div.content .clearfix, #tieuChiHoatDong div.content .clearfix, #cacTinKhac div.content .clearfix {
+	border-bottom: #D0BBE3 dotted 1px;
+	padding: 5px 0;
+}
+#cacTieuChiKhac div.content .c1, #tieuChiHoatDong div.content .c1, #cacTinKhac div.content .c1 {
+	width: 70%;
+	float: left;
+	font-weight: bold;
+}
+#cacTieuChiKhac div.content .c2, #tieuChiHoatDong div.content .c2 {
+}
+
+/* TRANG THO */
+#trangTho div.content .c1 {
+	width: 52%;
+	float: left;
+	font-weight: bold;
+}
+#trangTho div.content .c2 {
+	width: 34%;	
+	float: left;
+}
+#trangTho div.content .c3 {
+	float: right;
+}
+
+
+/* THU VIEN HINH */
+#thuVienHinh div.content img {
+	width: 120px;
+	height: 100px;
+	border: #999 solid 1px;
+}
+#thuVienHinh div.content {
+	color: #434343;
+	font-size: .9em;
+}
+#thuVienHinh div.content table tr td{
+	width: 150px;
+	border: #E9DFF2 dashed 1px;
+}
+
+/* THU VIEN HINH CHI TIET */
+#thuVienHinhChiTiet, #thongTinLienHe {
+	background: transparent  url(../images/flower.jpg) no-repeat 0px top;	
+}
+#thuVienHinhChiTiet div.content {
+	margin: 0 20px;
+}
+#thuVienHinhChiTiet div.content div.photo{
+	border: #B796D5 dashed 1px;
+}
+#thuVienHinhChiTiet div.content div.photo img {
+	position: relative;
+	left: 70px;
+}
+#thuVienHinhChiTiet div.content div.photo .photoName {
+	padding: 5px 0;
+	text-align: center;
+	display: block;
+}
+#thuVienHinhChiTiet div.content div.photo div.browsePhoto { 
+	font-weight: bold;
+	height: 30px;	
+	padding: 10px 5px 5px;
+}
+#thuVienHinhChiTiet div.content div.photo div.browsePhoto .prev {
+	float: left;
+	text-decoration: underline;	
+	background: #E9DFF2;
+}
+#thuVienHinhChiTiet div.content div.photo div.browsePhoto .next {
+	float: right;	
+	text-decoration: underline;	
+	background: #E9DFF2;
+}
+#thuVienHinhChiTiet div.content #descriptionPhoto {
+	margin-top: 10px;
+}
+#thuVienHinhChiTiet div.content #descriptionPhoto p.datePost{
+	margin-top: 10px;
+	text-align: right;
+	color: #434343;
+	font-size: .8em;
+}
+
+/* TRANG THO CHI TIET */
+#trangThoChiTiet h3 {
+	border-bottom: dashed 1px;
+	display: block;
+	padding: 5px;
+	height: 20px;
+}
+#trangThoChiTiet h3 .title {
+	float: left;
+}
+#trangThoChiTiet .datePost {
+	float: right;
+	font-style: italic;
+	font-weight: normal;
+}
+#trangThoChiTiet div.return {
+	padding: 15px 0 10px;
+	text-align: right;
+	font-weight: bold;
+	background: transparent url(../images/return.gif) 505px center no-repeat;
+}
+#trangThoChiTiet div.content img {
+	float: right;
+	margin: 5px 0px 5px 5px;
+}
+
+/* THONG TIN NOI BO */
+
+/* THONG TIN LIEN HE */
+#thongTinLienHe {
+	border-left: #B796D5 dashed 1px; border-right: #B796D5 dashed 1px; border-top: #B796D5 dashed 1px;
+	display: block;
+	min-height: 250px; height: auto !important; height: 250px;
+	padding: 0 15px;
+}
+#thongTinLienHe div.content {
+	float: left;
+	padding-left: 90px;
+}
+#thongTinLienHe div.hinhMinhHoa {
+	float: right;
+	width: 280px;
+	text-align: center;
+}
+#thongTinLienHe img {
+	width: 130px; height: 180px;
+}
+#bangLienHe {
+	min-height: 390px; height: auto !important; height: 390px;
+	border-right: #B796D5 dashed 1px; border-left: #B796D5 dashed 1px; border-bottom: #B796D5 dashed 1px;
+}
+#bangLienHe label.label {
+	float: left;
+	width: 130px;
+	font-weight: bold;
+	margin-left: 100px;
+}
+#bangLienHe .required {
+	color: #FF0000;
+	font-weight: normal;
+}
+#bangLienHe .field {
+	float: left;
+	margin-bottom: 6px;	
+	width: 320px;
+}
+#bangLienHe input, #bangLienHe textarea {
+}
+#bangLienHe div.content {
+	margin-top: 10px;
+}
+#bangLienHe div.buttons {
+	text-align: center;
+	margin: 20px 0;
+}
+#bangLienHe #send, #bangLienHe #reset {
+}
+
+/* DANH SACH THANH VIEN */
+#danhSachThanhVien img {
+	width: 120px;
+	height: 100px;
+	border: #999 solid 1px;
+}
+#danhSachThanhVien table tr td, #danhSachThanhVienChiTiet table tr td {
+	padding-bottom: 10px;
+}
+#danhSachThanhVien table tr td.img {
+	text-align: center;
+	width: 200px;
+}
+#danhSachThanhVien table tr td.content, #danhSachThanhVienChiTiet table tr td.content  {
+	border-bottom: #B796D5 dotted 1px;
+	width: 300px;
+}
+#danhSachThanhVien table tr td table tr td .label, #danhSachThanhVienChiTiet table tr td table tr td .label  {
+	font-weight:bold;
+}
+#danhSachThanhVien table tr td .detail {
+	text-align: right;
+	font-weight: bold;
+	width: 300px;
+}
+#danhSachThanhVien table tr td table tr td{
+	padding: 0;
+}
+
+/* DANH SACH THANH VIEN CHI TIET */
+#danhSachThanhVienChiTiet img.bigImg{
+	width: 240px;
+	height: 190px;
+	border: #999 solid 1px;
+}
+#danhSachThanhVienChiTiet img{
+	width: 80px;
+	height: 60px;
+	border: #999 solid 1px;
+}
+#danhSachThanhVienChiTiet table tr td img.bigImg {
+	text-align: center;
+	width: 260px;
+}
+
+/* THONG TIN NOI BO CHI TIET */
+#thongTinNoiBoChiTiet div.blockquote table tr td blockquote {
+	color: #BE4D9D;
+	font-style: italic;
+}
+#thongTinNoiBoChiTiet div.content img {
+	float: right;
+	margin: 5px 0px 5px 5px;
+}
+#thongTinNoiBoChiTiet div.noiDungChiTiet {
+	margin-top: 15px;
+}
+
+/* NHAC */
+#nhac div.xemThongtin {
+	background: #E9DFF2;
+}
+#nhac table tr td {
+	border: #D6BBEE solid 1px;
+	padding: 5px;
+}
+#nhac table tr td div.download {
+	border-top: #B796D5 dashed 1px; 
+	padding: 4px 5px 4px 20px;
+	background: url(../images/download.png) no-repeat 0 top;
+}
+#nhac div.download .title {
+	font-weight: bold;
+}
